@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Tutorial</title>
+    <script src="thirdparty/jquery/jquery-1.12.0.min.js"></script>
+    <script src="thirdparty/react/react.js"></script>
+    <script src="thirdparty/react/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="thirdparty/bootstrap/css/bootstrap.min.css">
+
+    <style>
+    	body {
+    		padding: 0px 20px 0px 20px;
+    	}
+    	.page-header {
+    		margin-top: 20px !important;
+    	}
+    	.commentList {
+		    max-height: 370px;
+		    overflow: auto;
+		    margin-bottom: 15px;
+  		}
+  		.well {
+  			margin-bottom: 0px;
+  		}
+      .comment {
+        border: 1px solid #e3e3e3;
+        border-radius: 4px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+      .header {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="content"></div>
+    <script src="js/bundle.js"></script>
+    <script src="thirdparty/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
